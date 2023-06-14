@@ -14,7 +14,7 @@ This repository does not and cannot distribute the ROM image of the game *Dungeo
 
 There are a number of utilities available for patching ROM images with .bps files. A popular utility is **FLIPS**, and it can be found readily with a Google search. For convenience a link to download the software is provided here: https://www.romhacking.net/utilities/1040/
 
-A "clean" copy of the ROM image of *Dungeons & Dragons: Warriors of the Eternal Sun* is required. For reference, the ROM image I used to develop the patch carries the filename `Dungeons & Dragons - Warriors of the Eternal Sun (USA, Europe).md`
+A "clean" copy of the ROM image of *Dungeons & Dragons: Warriors of the Eternal Sun* is required. For reference, the ROM image I used to develop the patch carries the filename `Dungeons & Dragons - Warriors of the Eternal Sun (USA, Europe).md`. SHA-1 fingerprint: `9135F7FDA03EF7DA92DFADE9C0DF75808214F693`.
 
 After downloading and extracting the patch and the utility, run the utility, select the patch file, select the ROM file to apply the patch to, and choose a name for the output file (patched ROM). After patching, you can load and execute the ROM image in an emulator of your choice. For reference, this patch was developed using MAME.
 ## Related Content
