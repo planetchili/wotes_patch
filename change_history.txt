@@ -2,18 +2,18 @@ V1.0 - 2023-06-14
 =================
 Changes:
 Gauntlets of Ogre Power taken into account for melee accuracy strength bonus
-Gauntlets no longer provide flat +2 accuracy bonus
+Gauntlets no longer provide flat +2 melee accuracy bonus
 Action range check for melee weapon attacks fixed in accuracy routine (off by one, affected bows)
-Blanket -2 debuff to player accuracy rolls removed
+Blanket -2 debuff to player melee accuracy rolls removed
 Fixed thac0 table values (+3 plateau increase was only +2)
 Fixed class-thac0 table mapping for dwarf and halfling
 Gauntlets taken into account for melee damage strength bonus
 Action range check for melee weapon attacks fixed in damage routine (off by one, affected bows)
 Sword damage fixed (1-6 => 1-8)
-Check for missile weapon in melee accuracy routine and used dex for bonus, not str
+Check for missile weapon in melee accuracy routine and use dex for bonus, not str
 Check for missile weapon in melee damage routine and skip str bonus
-Critical roll rules (1 always misses, even if target is sleeping, 20 always hits)
-Automatic hit no longer scored on sleeping targets when using missile weapons
+Critical roll rules implemented (1 always misses, even if target is sleeping, 20 always hits)
+Automatic hit no longer guaraunteed on sleeping targets when using missile weapons
 Notes:
 Dwarf and halfling had cleric thac0 scaling, but the rules dictate fighter scaling so they were
 upgraded. Thief originally had fighter scaling, and elf originally had cleric scaling. I have
