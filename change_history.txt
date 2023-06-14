@@ -1,7 +1,7 @@
 V1.0 - 2023-06-14
 =================
 Changes:
-Gauntlets taken into account for melee accuracy strength bonus
+Gauntlets of Ogre Power taken into account for melee accuracy strength bonus
 Gauntlets no longer provide flat +2 accuracy bonus
 Action range check for melee weapon attacks fixed in accuracy routine (off by one, affected bows)
 Blanket -2 debuff to player accuracy rolls removed
