@@ -1,0 +1,23 @@
+V1.0 - 2023-06-14
+=================
+Changes:
+Gauntlets taken into account for melee accuracy strength bonus
+Gauntlets no longer provide flat +2 accuracy bonus
+Action range check for melee weapon attacks fixed in accuracy routine (off by one, affected bows)
+Blanket -2 debuff to player accuracy rolls removed
+Fixed thac0 table values (+3 plateau increase was only +2)
+Fixed class-thac0 table mapping for dwarf and halfling
+Gauntlets taken into account for melee damage strength bonus
+Action range check for melee weapon attacks fixed in damage routine (off by one, affected bows)
+Sword damage fixed (1-6 => 1-8)
+Check for missile weapon in melee accuracy routine and used dex for bonus, not str
+Check for missile weapon in melee damage routine and skip str bonus
+Critical roll rules (1 always misses, even if target is sleeping, 20 always hits)
+Automatic hit no longer scored on sleeping targets when using missile weapons
+Notes:
+Dwarf and halfling had cleric thac0 scaling, but the rules dictate fighter scaling so they were
+upgraded. Thief originally had fighter scaling, and elf originally had cleric scaling. I have
+refrained from amending these as an editorial choice to improve balance between the classes.
+Sword damage was amended to reflect the rules, but none of the special swords (+2 vs Dragons etc.)
+have been changed since I'm not even sure which of them, if any, are actually implemented and
+available.
