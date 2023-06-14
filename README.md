@@ -1,6 +1,6 @@
 # (ROM Patch) Dungeons & Dragons: Warriors of the Eternal Sun
 ## Overview
-This is a ROM patch for the Sega Genesis game \[Dungeons & Dragons: Warriors of the Eternal Sun\]. The goals of this project are as follows:
+This is a ROM patch for the Sega Genesis game *Dungeons & Dragons: Warriors of the Eternal Sun*. The goals of this project are as follows:
 1. Fix blatent bugs in the game logic
 2. Bring the game logic more in line with actual D&D rules
 3. Mitigate exploits and "cheesey" tactics that undermine the game mechanics
@@ -10,11 +10,11 @@ For full details of the changes effected by this patch, refer to `change_history
 ## Installation
 Patch download: https://github.com/planetchili/wotes_patch/releases/tag/V1.0.
 
-This repository does not and cannot distribute the ROM image of the game \[Dungeons & Dragons: Warriors of the Eternal Sun\], for obvious legal reasons. What is distributed here is a .bps patch file that contains the information necessary to transform a "clean" ROM image into the patched version.
+This repository does not and cannot distribute the ROM image of the game *Dungeons & Dragons: Warriors of the Eternal Sun*, for obvious legal reasons. What is distributed here is a .bps patch file that contains the information necessary to transform a "clean" ROM image into the patched version.
 
 There are a number of utilities available for patching ROM images with .bps files. A popular utility is **FLIPS**, and it can be found readily with a Google search. For convenience a link to download the software is provided here: https://www.romhacking.net/utilities/1040/
 
-A "clean" copy of the ROM image of \[Dungeons & Dragons: Warriors of the Eternal Sun\] is required. For reference, the ROM image I used to develop the patch carries the filename `Dungeons & Dragons - Warriors of the Eternal Sun (USA, Europe).md`
+A "clean" copy of the ROM image of *Dungeons & Dragons: Warriors of the Eternal Sun* is required. For reference, the ROM image I used to develop the patch carries the filename `Dungeons & Dragons - Warriors of the Eternal Sun (USA, Europe).md`
 
 After downloading and extracting the patch and the utility, run the utility, select the patch file, select the ROM file to apply the patch to, and choose a name for the output file (patched ROM). After patching, you can load and execute the ROM image in an emulator of your choice. For reference, this patch was developed using MAME.
 ## Related Content
