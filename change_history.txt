@@ -1,3 +1,28 @@
+V2.0 - 2024-06-28
+=================
+ *Changes:
+Equal share of defeated monster XP among all living characters
+XP bonus for class prime requisite
+Quality of life improvements to make spellcasting much more user-friendly:
+ - Selecting empty slot in combat automatically opens inventory
+ - After choosing via auto-inventory automatically return to combat and use
+Quality of life for resting (default to NO for change spell list so you can mash)
+Fix thief hiding in dungeon:
+ - Attacking in dungeon will clear the hidden status
+ - It is now possible to hide while in the dungeon
+Fix and rebalance blindness status (dark/light spells):
+ - Saving throw for blindness spells => no longer a guaranteed hit
+ - Blinded creatures can take their turns as usual => no longer fully incapacitated in tactical
+ - Blinded creatures have debuffs to hit and dodge; easier to hit them, hard for them to hit you
+ - Blinded enemies no longer wander around aimlessly in dungeon mode
+ - Blindness debuff lengths shortened in tactical => no longer last for entire battle
+ - Duration of blindness now has some dice variance, with a small bonus for caster INT (1d4+INT bonus)
+Fixed broken melee calculation that caused huge debuff for enemies that hold weapons like swords etc.
+ - Holding a sword was causing them to use the same code path as player characters
+ - Player characters use STR bonus, but since enemy sheets have 0 STR, they would get a huge debuff!
+Modified magic missile to get a small damage bonus from INT (+1, +2, or +3 for 18 INT)
+Enabled C++ code to divide with operator / and to use the native CPU instruction when doing so
+
 V1.0 - 2023-06-14
 =================
  *Changes:
